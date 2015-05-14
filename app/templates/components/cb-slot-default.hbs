@@ -1,0 +1,11 @@
+<h1>CREDITS: {{balance}}</h1>
+<h2>SPIN!</h2>
+{{#if test}}
+  {{#each test as |row|}}
+    <div class="cbSlotDefault--row">
+    {{#each row as |item|}}
+      {{cb-slot-default-item item=item}}
+    {{/each}}
+    </div>
+  {{/each}}
+{{/if}}
