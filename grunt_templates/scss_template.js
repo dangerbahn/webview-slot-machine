@@ -1,14 +1,11 @@
 /*********************************************************************
                         Application Breakpoints 
 ********************************************************************/
-$sm: 480px;
-$md: 600px;
-$lg: 768px;
-$xl: 1000px;
+$sm: <%=breakPoints.sm%>px;
+$md: <%=breakPoints.md%>px;
+$lg: <%=breakPoints.lg%>px;
+$xl: <%=breakPoints.xl%>px;
 /*********************************************************************
                         SCSS file import paths
 ********************************************************************/
-@import "./app/styles/base/_reset.scss";
-@import "./app/styles/vendor/bootstap.min.scss";
-@import "./app/components/cb-slot-default-item/stylesheet.scss";
-@import "./app/components/cb-slot-default/stylesheet.scss";
+<%=importPaths%>

@@ -1,5 +1,8 @@
 import Ember from 'ember';
-
+/**
+ * @module  components
+ * @class   cb-slot-default
+ */
 export default Ember.Component.extend({
   classNames: ['cbSlotDefault'],
   rows: [1,2,3],
@@ -45,3 +48,4 @@ export default Ember.Component.extend({
     });
   }.observes('test')
 });
+
